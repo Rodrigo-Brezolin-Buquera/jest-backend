@@ -1,0 +1,21 @@
+### SIGNUP
+POST http://localhost:3003/user/signup
+Content-Type: application/json
+
+{
+	"name":"Matheus Lima Ribeiro",
+	"email":"matheus2@gmail.com",
+	"password":"654321",
+    "role": "ADMIN"
+}
+
+### LOGIN
+POST http://localhost:3003/user/login
+Content-Type: application/json
+
+{
+	
+	"email":"matheus@gmail.com",
+	"password":"654321"
+ 
+}
